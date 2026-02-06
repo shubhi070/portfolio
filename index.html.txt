@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shubhi Gupta | Frontend Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Shubhi.</h2>
+  <div class="nav-links">
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-box">
+    <h1>Hi, I’m <span>Shubhi Gupta</span></h1>
+    <p>I’m a <b id="typing"></b></p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="hidden">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">HTML & CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">React</div>
+    <div class="skill-card">Flutter</div>
+    <div class="skill-card">SQL & DBMS</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="hidden">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Drive Hub</h3>
+      <p>Car sales & rental platform with modern UI.</p>
+      <a href="#" class="btn">View Demo</a>
+    </div>
+    <div class="project-card">
+      <h3>Flutter App</h3>
+      <p>Cross-platform app with Firebase login & API.</p>
+      <a href="#" class="btn">View Demo</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="hidden contact-section">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a></p>
+  <a href="resume.pdf" class="btn" download>Download Resume</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Shubhi Gupta • Frontend Developer
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
